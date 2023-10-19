@@ -2,7 +2,7 @@
      <header>
       <div class="container">
         <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
-    {% assign owner_first_name = site.owner | split: " " %}
+    {% assign owner_first_name = site.title | split: " " %}
     <h1>{{ owner_first_name[0] | downcase }}@work:~$</h1>
     </a>
     <div style="text-align:center;">
