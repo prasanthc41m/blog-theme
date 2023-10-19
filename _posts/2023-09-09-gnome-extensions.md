@@ -1,5 +1,5 @@
 ---
-title: Gnome Extensions
+title: GNOME Default Session Switch Extensions
 published: true
 ---
 
