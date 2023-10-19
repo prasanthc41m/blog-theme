@@ -64,10 +64,16 @@ header {
   display: inline;
 }
 
+
 /* Links in the header (modify text decoration and color) */
-.header-link a {
+header .header-link a {
   text-decoration: none;
   color: $conifer; // $header;
+}
+
+/* Remove underline on h1 within the header */
+header h1 {
+  text-decoration: none;
 }
 
 header h1 {
