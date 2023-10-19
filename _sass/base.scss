@@ -65,7 +65,7 @@ header {
 }
 
 /* Links in the header (modify text decoration and color) */
-header .header-link a {
+.header-link a {
   text-decoration: none;
   color: $conifer; // $header;
 }
