@@ -1,9 +1,10 @@
 <header>
      <header>
       <div class="container">
-        <a id="a-title" href="{{ relative_url }}">
-          <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        </a>
+        <a href="{{ "/" | prepend: site.baseurl | replace: '//', '/' }}">
+    {% assign owner_first_name = site.owner | split: " " %}
+    <h1>{{ owner_first_name[0] | downcase }}@work:~$</h1>
+    </a>
     <div style="text-align:center;">
       <a href="https://www.linkedin.com/in/prasanthc41m/" target="_blank"><i class="fa fa-linkedin"></i></a>  <a href="https://prasanthc41m.medium.com/" target="_blank"><i class="fa fa-medium"></i></a>  <a href="https://github.com/prasanthc41m" target="_blank"><i class="fa fa-github"></i></a>
       <div class="header-links">
